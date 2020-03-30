@@ -1,0 +1,31 @@
+<resources>
+  <string name="app_name">Baking Project</string>
+  <string name="recipe_name">Recipe Name</string>
+
+  <!-- TODO: Remove or change this placeholder text -->
+  <string name="hello_blank_fragment">Hello blank fragment</string>
+  <string name="appwidget_text">EXAMPLE</string>
+  <string name="add_widget">Add widget</string>
+  <string name="no_recipe_selected" />
+  <string name="widget_item_format" />
+  <string name="widget_recipe_key">widget_recipe_key</string>
+  <string name="description">description</string>
+  <string name="alooBhaji">AlooBhaji</string>
+  <string name="add_to_widget">Add to Widget</string>
+  <string name="servings">Servings: </string>
+  <string name="_10">10</string>
+  <string name="steps">STEPS</string>
+  <string name="angad">Udacity &#9829; A N G A D</string>
+  <string name="ingredients">INGREDIENTS</string>
+  <string name="quantity">Quantity</string>
+  <string name="ingredient">Ingredient</string>
+  <string name="gms">gms</string>
+  <string name="_269">269</string>
+  <string name="stepid">stepID</string>
+  <string name="short_description">Short Description</string>
+  <string name="nutella">Nutella Pie</string>
+  <string name="brownies">Brownies</string>
+  <string name="button">Button</string>
+  <string name="addedToWidget">Added to Widget</string>
+
+</resources>

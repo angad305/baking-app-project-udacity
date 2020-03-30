@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_margin="5dp">
+
+  <LinearLayout
+    android:id="@+id/childListXml"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="5dp"
+      android:layout_marginBottom="15dp"
+      android:background="#FFFFFF"
+      android:orientation="horizontal">
+
+      <TextView
+        android:id="@+id/RecipeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/recipe_name"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:typeface="sans" />
+
+      <ToggleButton
+        android:id="@+id/addToWidget"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/button_favorite"
+        android:checked="false"
+        android:text="@string/button"
+        android:textOff=""
+        android:textOn="" />
+
+
+      <TextView
+        android:id="@+id/servings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RecipeName"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/servings"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+      <TextView
+        android:id="@+id/serving"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RecipeName"
+        android:layout_toEndOf="@id/servings"
+        android:text="@string/_10"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+    <View
+      android:layout_width="match_parent"
+      android:layout_height="2dp"
+      android:background="#c0c0c0" />
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="5dp"
+      android:background="#ff3485"
+      android:fontFamily="sans-serif-black"
+      android:padding="10dp"
+      android:text="@string/ingredients"
+      android:textAlignment="center"
+      android:textAppearance="@style/TextAppearance.AppCompat.Large"
+      android:textColor="#FFFFFF"
+      android:textSize="18sp"
+      android:typeface="sans" />
+
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="#9300ee"
+      android:orientation="horizontal"
+      android:paddingLeft="5dp"
+      android:paddingRight="5dp">
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/quantity"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.7"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/ingredient"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+      android:id="@+id/ingredients_recycler_view"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:nestedScrollingEnabled="false"
+      android:scrollbars="vertical" />
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="5dp"
+      android:background="#ff3485"
+      android:fontFamily="sans-serif-black"
+      android:padding="10dp"
+      android:text="@string/steps"
+      android:textAlignment="center"
+      android:textAppearance="@style/TextAppearance.AppCompat.Large"
+      android:textColor="#FFFFFF"
+      android:textSize="18sp"
+      android:typeface="sans" />
+
+    <androidx.recyclerview.widget.RecyclerView
+      android:id="@+id/steps_recycler_view"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:nestedScrollingEnabled="false"
+      android:scrollbars="vertical" />
+
+
+  </LinearLayout>
+</androidx.core.widget.NestedScrollView>
