@@ -16,16 +16,19 @@ Please import the project in Android Studio.
 
 ## Screenshots
 <div align="center">
-    <img src="https://github.com/angad305/Popular-Movies-Udacity-Stage-2/blob/master/Screenshots/Google%20Pixel%203%201.png" width="400px"</img> 
+    <img src="https://https://github.com/angad305/baking-app-project-udacity/blob/master/Screenshots/Google%20Pixel%203%201.png" width="400px"</img> 
 </div>
 <div align="center">
-    <img src="https://https://github.com/angad305/baking-app-project-udacity/blob/master/Screenshots/Nexus%209%201.png" width="600px"</img> 
+    <img src="https://https://github.com/angad305/baking-app-project-udacity/blob/master/Screenshots/Nexus%209%201.png" width="400px"</img> 
 <div align="center">
-    <img src="https://github.com/angad305/Popular-Movies-Udacity-Stage-2/blob/master/Screenshots/Google%20Pixel%203%202.png" width="400px"</img> 
+    <img src="https://github.com/angad305/baking-app-project-udacity/blob/master/Screenshots/Nexus%209%201.png" width="800px"</img> 
 </div>
 <div align="center">
-    <img src="https://github.com/angad305/Popular-Movies-Udacity-Stage-2/blob/master/Screenshots/Google%20Pixel%203%203.png" width="400px"</img> 
+    <img src="https://github.com/angad305/baking-app-project-udacity/blob/master/Screenshots/Google%20Pixel%203%202" width="400px"</img> 
 </div>
 <div align="center">
-    <img src="https://github.com/angad305/Popular-Movies-Udacity-Stage-2/blob/master/Screenshots/Google%20Pixel%203%204.png" width="400px"</img> 
+    <img src="https://github.com/angad305/baking-app-project-udacity/blob/master/Screenshots/Google%20Pixel%203%203.png" width="400px"</img> 
+</div>
+    <div align="center">
+    <img src="https://github.com/angad305/baking-app-project-udacity/blob/master/Screenshots/Google%20Pixel%203%204.png" width="400px"</img> 
 </div>
